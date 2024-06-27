@@ -43,6 +43,7 @@ const tabsIdsDictionary = {
   FIRST_TAB: 'MainFAQ1_header',
   SECOND_TAB: 'MainFAQ2_header',
   THIRD_TAB: 'MainFAQ3_header',
+  FOURTH_TAB: 'MainFAQ4_header',
   ...afterTabsIds,
 }
 
@@ -54,6 +55,7 @@ const FAQ = function (props) {
     FIRST_TAB: false,
     SECOND_TAB: false,
     THIRD_TAB: false,
+    FOURTH_TAB: false,
     ...afterTabs,
   })
 
@@ -62,6 +64,7 @@ const FAQ = function (props) {
     FIRST_TAB: false,
     SECOND_TAB: false,
     THIRD_TAB: false,
+    FOURTH_TAB: false,
     ...afterTabs,
   })
 
@@ -377,8 +380,73 @@ const FAQ = function (props) {
               />
             </p>
             <p>
-              <FormattedMessage id="MainFAQ3_content4" defaultMessage="There might be other causes of higher blockchain fees, but we've listed the most common ones." />
+              <FormattedMessage id="MainFAQ3_content4" 
+              defaultMessage="There might be other causes of higher blockchain fees, 
+              but we've listed the most common ones." />
             </p>
+          </div>
+        </article>
+
+        <article className={styles.tab}>
+          <span className={styles.tab__header} onClick={() => handleTabClick('FOURTH_TAB')}>
+            <div className={cx({
+              [styles.chrest]: true,
+              [styles.chrest_active]: tabsVisibility.FOURTH_TAB,
+            })} />
+            <FormattedMessage id="MainFAQ4_header" defaultMessage="How to add StartWaves (SWC) token to your wallet?" />
+          </span>
+          <div className={cx({
+            [styles.tab__content]: true,
+            [styles.tab__content_active]: tabsVisibility.FOURTH_TAB,
+          })}>
+            <p>
+              <FormattedMessage
+                id="MainFAQ4_content"
+                defaultMessage={`
+                  Adding our Start Waves (SWC) token to your wallet is easy :)
+                `}
+              />
+            </p>
+            <p>
+              <FormattedMessage
+                id="MainFAQ4_content1"
+                defaultMessage={`
+                  Select the 'Add custom token' option that appears at the bottom of your wallet.
+                `}
+              />
+            </p>
+            <p>
+              <FormattedMessage
+                id="MainFAQ4_content2"
+                defaultMessage={`
+                  Copy the contract address of our Start Waves token (SWC): 0x6c9D9D1e1f6ceC71d94abfAe45A62Bc6D30379ED
+                `}
+              />
+            </p>
+            <p>
+              <FormattedMessage
+                id="MainFAQ4_content3"
+                defaultMessage={`
+                  When you have copied the Start Waves (SWC) token address, select the 'Next' option and you will be able to see all the token information.
+                `}
+              />
+            </p>
+            <p>
+              <FormattedMessage
+                id="MainFAQ4_content4"
+                defaultMessage={`
+                Finally, select the 'Add token' option and that's it! You already have our Start Waves token (SWC) and now you can buy it with Bitcoin, Ethereum, among other cryptocurrencies.
+                `}
+              />
+            </p>
+            <p>
+              <FormattedMessage
+                id="MainFAQ4_content5"
+                defaultMessage={`
+                  You can visit the SMART CONTRACT (contract) of Start Waves (SWC) on Etherscan https://etherscan.io/token/0x6c9d9d1e1f6cec71d94abfae45a62bc6d30379ed.
+                `}
+              />
+            </p>              
           </div>
         </article>
         {hasOwnAfterTabs && (

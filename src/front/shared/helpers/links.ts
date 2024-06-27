@@ -37,14 +37,14 @@ const linksManager = {
 
   // social networks
   medium: '#',
-  twitter: 'https://twitter.com/SwapOnlineTeam',
-  facebook: '#',
-  github: 'https://github.com/swaponline/MultiCurrencyWallet',
-  telegram: 'https://t.me/swaponline',
+  twitter: '#',
+  facebook: 'https://www.facebook.com/groups/StartWavesEmbajadores',
+  github: 'https://github.com/ElkinNocuaDev',
+  telegram: '#',
   bitcointalk: '#',
   discord: '#',
   reddit: '#',
-  youtube: '#',
+  youtube: 'https://www.youtube.com/c/StartWavesAcademy',
 
   transak: 'https://global.transak.com/',
   transakDev: 'https://staging-global.transak.com/',

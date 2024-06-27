@@ -8,21 +8,19 @@ type ServiceLinksProps = {
 }
 
 function ServiceLinks({ versionName, versionLink }: ServiceLinksProps) {
-  const serviceLink = config?.opts?.ui?.serviceLink || 'https://onout.org/wallet'
+  const serviceLink = 'https://startwaves.co/'
 
   return (
     <div styleName="serviceLinks">
       {versionName && versionLink && (
         <span>
-          <a href={versionLink} target="_blank" rel="noreferrer">
-            {versionName}
-          </a>
+          
         </span>
       )}
       <span>
         Powered by
         {' '}
-        <a href={serviceLink} target="_blank" rel="noreferrer">OnOut - no-code tool to create Wallet</a>
+        <a href={serviceLink} target="_blank" rel="noreferrer">Start Waves - Banking for All</a>
       </span>
     </div>
   )

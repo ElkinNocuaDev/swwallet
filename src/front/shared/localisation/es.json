@@ -2917,6 +2917,55 @@
     ]
   },
   {
+    "id": "MainFAQ4_header",
+    "message": "¿Como agregar el token Star Waves (SWC) a su billetera?",
+    "files": [
+      "src/front/shared/components/FAQ/FAQ.tsx"
+    ]
+  },
+  {
+    "id": "MainFAQ4_content",
+    "message": "Agregar nuestro token Start Waves (SWC) a su billetera/wallet es sencillo :)",
+    "files": [
+      "src/front/shared/components/FAQ/FAQ.tsx"
+    ]
+  },
+  {
+    "id": "MainFAQ4_content1",
+    "message": "Selecciona la opción 'Agregar token personalizado' que aparece en la parte de abajo de tu billetera/wallet.",
+    "files": [
+      "src/front/shared/components/FAQ/FAQ.tsx"
+    ]
+  },
+  {
+    "id": "MainFAQ4_content2",
+    "message": "Copia la direccion del contrato de nuestro token Start Waves (SWC): 0x6c9D9D1e1f6ceC71d94abfAe45A62Bc6D30379ED",
+    "files": [
+      "src/front/shared/components/FAQ/FAQ.tsx"
+    ]
+  },
+  {
+    "id": "MainFAQ4_content3",
+    "message": "Cuando hayas copiado la direccion del token Start Waves (SWC), selecciona la opcion 'Siguiente' y podras ver toda la informacion del token.",
+    "files": [
+      "src/front/shared/components/FAQ/FAQ.tsx"
+    ]
+  },
+  {
+    "id": "MainFAQ4_content4",
+    "message": "Por ultimo, selecciona la opcion 'Agregar token' y listo! Ya tienes nuestro token Start Waves (SWC) y ahora puedes comprarlo con Bitcoin, Ethereum entre otras criptomonedas.",
+    "files": [
+      "src/front/shared/components/FAQ/FAQ.tsx"
+    ]
+  },
+  {
+    "id": "MainFAQ4_content5",
+    "message": "El SMART CONTRACT (contrato) de Start Waves (SWC) puedes visitarlo en Etherscan https://etherscan.io/token/0x6c9d9d1e1f6cec71d94abfae45a62bc6d30379ed.",
+    "files": [
+      "src/front/shared/components/FAQ/FAQ.tsx"
+    ]
+  },
+  {
     "id": "HowToWithdrawModal_Title",
     "message": "Cómo retirar",
     "files": [
@@ -5354,7 +5403,7 @@
   },
   {
     "id": "FooterSwapDescription",
-    "message": "En línea desde 2018. Consulta nuestro historial de {twitter} y {github}",
+    "message": "© 2024 Start Waves. Todos los derechos reservados.",
     "files": [
       "src/front/shared/components/Footer/Footer.tsx"
     ]

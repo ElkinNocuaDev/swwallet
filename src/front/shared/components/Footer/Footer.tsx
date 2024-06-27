@@ -34,7 +34,7 @@ function Footer() {
           <p styleName="swapDescription">
             <FormattedMessage
               id="FooterSwapDescription"
-              defaultMessage="Online since 2018. Check our {twitter} and {github} history"
+              defaultMessage="© 2024 Start Waves. All rights reserved."
               values={{
                 github: <a href={links.github} target="_blank" rel="noreferrer">github</a>,
                 twitter: <a href={links.twitter} target="_blank" rel="noreferrer">twitter</a>,

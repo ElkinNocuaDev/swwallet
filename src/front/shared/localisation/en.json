@@ -5350,7 +5350,7 @@
   },
   {
     "id": "FooterSwapDescription",
-    "message": "Online since 2018. Check our {twitter} and {github} history",
+    "message": "© 2024 Start Waves. All rights reserved.",
     "files": [
       "src/front/shared/components/Footer/Footer.tsx"
     ]
